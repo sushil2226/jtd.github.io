@@ -1,3 +1,7 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 .navbar-collapse {
     justify-content: end;
 }
@@ -22,38 +26,132 @@
 .heading {
     font-size: 60px;
     color: rgb(84, 44, 123);
-
 }
 
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-top {
+    margin: 10rem 0 !important;
+}
 
 .annual-report {
     height: 300px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
-    margin-top: 40px;
 }
 
 .annual-title {
     font-size: 35px;
-    color:rgb(84, 44, 123);
-    margin-left:35px ;
+    color: rgb(84, 44, 123);
+    margin-left: 35px;
     margin-top: 40px;
 }
 
-.annual-img-top {
-    width: 200px;
-
-}
-.annual-body{
-    width:1000px;
+.annual-body {
+    width: 1000px;
     margin-top: 40px;
     text-align: start;
 }
-.annual-text{
-    margin-left:35px ;
-    
+
+.annual-text {
+    margin-left: 35px;
+
 }
+
 #t {
     color: blue;
 }
 
+
+h2 {
+    color: #333;
+    text-align: center;
+    position: relative;
+    margin: 30px 0 60px;
+}
+
+h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #8fbc54;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+.carousel {
+    padding: 0 70px;
+}
+
+.carousel .carousel-item {
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+    margin-top: 30px;
+}
+
+.carousel .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.carousel .testimonial {
+    padding: 30px 0 10px;
+}
+
+.carousel .overview {
+    font-style: italic;
+}
+
+.carousel .overview b {
+    text-transform: uppercase;
+    color: #7AA641;
+}
+
+.carousel-indicators {
+    margin-bottom: -15px !important;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    margin: 1px 3px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+    background: #555;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
