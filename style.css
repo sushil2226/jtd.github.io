@@ -1,9 +1,8 @@
-
-.navbar-collapse
-{
+.navbar-collapse {
     justify-content: end;
 }
-.navbar{
+
+.navbar {
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -25,3 +24,36 @@
     color: rgb(84, 44, 123);
 
 }
+
+
+.annual-report {
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.annual-title {
+    font-size: 35px;
+    color:rgb(84, 44, 123);
+    margin-left:35px ;
+    margin-top: 40px;
+}
+
+.annual-img-top {
+    width: 200px;
+
+}
+.annual-body{
+    width:1000px;
+    margin-top: 40px;
+    text-align: start;
+}
+.annual-text{
+    margin-left:35px ;
+    
+}
+#t {
+    color: blue;
+}
+
