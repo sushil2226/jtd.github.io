@@ -1,0 +1,27 @@
+
+.navbar-collapse
+{
+    justify-content: end;
+}
+.navbar{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textDiv {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 60px;
+    color: rgb(84, 44, 123);
+
+}
