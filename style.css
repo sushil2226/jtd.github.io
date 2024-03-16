@@ -162,6 +162,18 @@ h2 {
     box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+
+.overlapping-image{
+    width: auto;
+    height: 300px;
+    position: relative;
+}
+
+.overflowing-image{
+    width: auto;
+    height: 300px;
+    z-index: -1;
+}
 .footer-container{
     margin-top: 20px;
     background-color: #e9e4e4;
